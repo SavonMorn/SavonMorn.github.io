@@ -109,7 +109,31 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/*Custom*/
+.work{
+	position: relative;
+	top: -10px;
+	border-radius: 10px;
+}
+.work2{
+	position: relative;
+	top: 4px;
+	border-radius: 10px;
+	right: -45px;
+}
+.work3{
+	position: relative;
+	top: -20px;
+	border-radius: 10px;
+}
+.work4{
+	position: relative;
+	top: -10px;
+	border-radius: 10px;
+	right: 10px;
+}
 /* Type */
+		
 
 	html {
 		font-size: 16pt;
@@ -1140,9 +1164,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
